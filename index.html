@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe finder</title>
+    <link rel="icon" type="image/ico" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="head">
+            <div class="heading">
+                <img src="Recipe_logo.png" alt="">
+                <p>RECIPE FINDER</p>
+
+            </div>
+            <div class="navIcon">
+                <img id="dropDown" src="navigation-bar.png" alt="">
+            </div>
+        </div>
+
+        <ul class="navItem">
+            <li><a href="">Home</a> </li>
+            <li><a class="display-block usebtn" href="">How to use</a></li>
+        </ul>
+    
+    </nav>
+
+    <div class="text-container">
+        <div class="first">Recipe Finder</div>
+        <div class="second">Enter your ingredient seperated by comma(,)</div>
+    </div>
+
+    <div class="entry-container">
+
+        <input id="input" type="text" placeholder="E.g. onion, tomato...">
+        <button id="btn">Search</button>
+
+    </div>
+
+    <div id="result">
+        <h2 class="resultH2">Result</h2>
+        <img class="load-img" src="loading.gif" alt="">
+        <div class="cards-container">
+            <!-- <div class="card">
+                <img src="https://st5.depositphotos.com/32575392/66283/i/450/depositphotos_662838856-stock-photo-blue-night-scene-lake-panorama.jpg" alt="">
+                <p>chandrabhan</p>
+            </div>
+            <div class="card">
+                <img src="https://st5.depositphotos.com/32575392/66283/i/450/depositphotos_662838856-stock-photo-blue-night-scene-lake-panorama.jpg" alt="">
+                <p>chandrabhan</p>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="alert-container">
+        <div class="alert-box">
+            <p>
+                You just have to enter your ingredient in the input box and don't forget to put comma(,) in beetwen the ingredients for example
+                <br>
+                union,carrot,chilli...and all your ingredient
+            </p>
+            <button id="Okbtn">Ok</button>
+
+        </div>
+       
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
